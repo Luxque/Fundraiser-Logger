@@ -1,6 +1,6 @@
 def printData(data: tuple) -> None:
     title, owner, raised, goal = data
-    progress = float(raised) / float(goal) * 100
+    progress = raised / goal * 100
 
     quotient = raised // goal
     remainder = raised % goal
@@ -23,7 +23,10 @@ def printData(data: tuple) -> None:
         print("[" + "■" * 20 + "]", end="")
         if (i+1) % 5 == 0 and remainder != 0:
             print("")
-    print("[" + "▶" * nominator + "▷" * (20 - nominator) + "]")
+    if nominator != 0:
+        print("[" + "▶" * nominator + "▷" * (20 - nominator) + "]\n")
+    else:
+        print("")
 
     print("\n" + "─" * 110 + "\n")
 
