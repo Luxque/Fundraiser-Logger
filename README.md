@@ -2,6 +2,11 @@
 
 
 
+## Tech Stack
+
+* Python
+* Beautiful Soup
+
 ## Supported Fundraiser Websites
 
 * [CAMPFIRE](https://camp-fire.jp/)
