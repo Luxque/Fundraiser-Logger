@@ -7,7 +7,7 @@ This project aims to create a simple and interactive enviornment for checking th
 The application will offer both automatic and manual checking/logging.
 The logged data will be stored as a CSV file, and the application will be able to plot the fundraiser progress to analyze the particiption rate over time.
 
-## Tech Stack
+## Stack
 
 * Python
 * Beautiful Soup
