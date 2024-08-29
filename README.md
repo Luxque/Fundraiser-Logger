@@ -19,7 +19,6 @@ The logged data will be stored as a CSV file, and the application will be able t
 
 ## To Be Implemented
 
-* A simple CLI environment.
 * A savable settings.
 * CSV file I/O.
 * A plot generator (raised fund vs. recorded time).
